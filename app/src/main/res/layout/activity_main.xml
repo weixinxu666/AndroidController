@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="小车客户端登录界面"
+        android:textColor="#0099FF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_login"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_username"
+        android:hint="  输入小车的IP"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#0E0703"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_ip"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_username"
+        android:hint="  输入小车的端口号"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#0E0703"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#FF7011"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
